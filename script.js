@@ -1561,14 +1561,11 @@
             if (savedTheme && savedTheme !== 'dark') {
                 setTheme(savedTheme);
             }
-            
-            // Render initial products
+       
             renderProducts(products);
-            
-            // Set up event listeners
+   
             setupEventListeners();
         }
-
-        // Initialize the application when DOM is fully loaded
         document.addEventListener('DOMContentLoaded', init);
+<script src="script.js">
     </script>
