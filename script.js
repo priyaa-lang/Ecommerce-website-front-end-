@@ -2,7 +2,7 @@
     <script type="module">
        
 
-        // DOM Elements
+       
         const productGrid = document.getElementById('products-grid');
         const productModal = document.getElementById('product-modal');
         const productDetailContainer = document.getElementById('product-detail-container');
@@ -1567,5 +1567,5 @@
             setupEventListeners();
         }
         document.addEventListener('DOMContentLoaded', init);
-<script src="script.js">
+
     </script>
